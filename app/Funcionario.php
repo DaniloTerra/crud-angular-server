@@ -8,5 +8,5 @@ class Funcionario extends Model
 {
     protected $table = 'funcionarios';
 
-    protected $fillable = ['nome', 'email', 'email'];
+    protected $fillable = ['nome', 'email', 'telefone'];
 }
