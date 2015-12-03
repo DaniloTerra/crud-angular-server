@@ -34,6 +34,6 @@ class FuncionarioController extends Controller
 
     public function destroy($id)
     {
-        return Funcionario::destroy($id);
+      return Funcionario::destroy($id);
     }
 }

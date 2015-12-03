@@ -12,8 +12,7 @@ class ClienteController extends Controller
 {
     public function index()
     {
-      $clientes = Cliente::all();
-      return $clientes;
+      return Cliente::all();
     }
 
     public function store(Request $request)
